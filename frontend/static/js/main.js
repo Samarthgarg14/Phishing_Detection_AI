@@ -178,6 +178,9 @@
                         modelsBreakdown.style.opacity = '1';
                         modelsBreakdown.style.pointerEvents = 'auto';
                         modelsBreakdown.style.userSelect = 'auto';
+
+                        const overlay = document.getElementById('modelsBreakdownOverlay');
+                        if (overlay) overlay.style.display = 'none';
                     } else {
                         document.getElementById('trainTitle').innerText = '❌ Training Failed';
                         document.getElementById('trainStatus').innerText = 'An error occurred during the pipeline execution.';
