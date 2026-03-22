@@ -1,0 +1,10 @@
+python-dotenv
+pandas
+numpy
+scikit-learn
+dill
+PyYAML
+mlflow
+fastapi
+uvicorn
+python-multipart
