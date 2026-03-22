@@ -1,0 +1,11 @@
+pip>=26.0.1
+python-dotenv
+pandas
+numpy
+scikit-learn
+dill
+PyYAML
+mlflow
+fastapi
+uvicorn
+python-multipart
